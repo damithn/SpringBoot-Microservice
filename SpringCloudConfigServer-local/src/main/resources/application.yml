@@ -1,1 +1,7 @@
+server:
+  port: 8191
 
+#set profile as a native - fetching configuration from local file system.
+spring:
+  profiles:
+    active: native
